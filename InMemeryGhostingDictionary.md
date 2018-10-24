@@ -5,3 +5,10 @@ Provides a dictionary implementation which stores a certain amount of previous v
 * Should be threadsafe (uses ConcurrentDictionary)
 * Provides easy methods to update values, get current values, and know if there is a change
 * Can store a certain number of values
+
+
+
+
+```csharp
+var dictionary = new InMemoryGhostingDictionary<string>();
+```
