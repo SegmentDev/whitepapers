@@ -4,6 +4,6 @@ White Papers might be a generous term. This is mainly a collection of my thought
 
 [Fading Dictionary](/FadingDictionary.md) In-Memory key value store that maintains a specified number of previous values.
 
-[Insist](/Insist.md) A descriptive assertion library for checking variables at runtime in a test-like 
+[Insist](https://github.com/adamalesandro/Insist/blob/master/Insist%20White%20Paper.md) A descriptive assertion library for checking variables at runtime in a test-like 
 
 [Job Monitor](/JobMonitor.md) A job monitoring tool that approaches monitoring from a negative perspective.
