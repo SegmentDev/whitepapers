@@ -27,15 +27,35 @@ __Token:__ a voucher that can be exchanged for goods or services, typically one 
 __Wallet:__ A cryptocurrency wallet is a device, physical medium, program or a service which stores the public and/or private keys and can be used to track ownership, receive or spend cryptocurrencies.[1]
 
 
-## 2 Hash Locked Escrow Contracts -> Dating contracts
+## 2 Hash Locked Escrow Contracts (dating contracts)
 
-### 2.1
+### 2.1 What are Hash Locks
+>A Hashlock is a type of encumbrance that restricts the spending of an output until a specified piece of data is publicly revealed. Hashlocks have the useful property that once any hashlock is opened publicly, any other hashlock secured using the same key can also be opened. This makes it possible to create multiple outputs that are all encumbered by the same hashlock and which all become spendable at the same time. Hashlocks have been used independently (see below) but are most commonly described as part of a system such as Hashed Timelock Contracts.[2]
+
+Fortunately, hashlocks provide a sort of template for what we are trying to achieve in the 'Dating Contract'.
+
+## 3 
 
 ## 4 Accounts
 
 ### 4.1 Initial token grant
+Upon signing up for an account on the app, each user will be granted an 'Initial token grant'. This grant will be free of charge for the user and represent enough token value for the posting of one date's worth of escrow.
 
-### 4.2 
+### 4.2 Additional purchases
+User's may replenish their token balance at any point by purchasing additional tokens with fiat currency at a fixed exchange rate to USD or by converting crypto currency at a floating exchange rate based on dynamic inputs.
+
+### 4.3 Wallets
+Each user will initialize a wallet (transparent to them) upon the activation of their account on the platform. The wallet will be a captive wallet, similar to Brave Browser's wallet implementation, which does not require any specific action by the user other than an optional backup. From this backup the user can theoretically run their wallet off of the application's platform, but will provide limited or no ability to use the token for the stated objective of date escrow collateral.
+
+
+## 5 Token
+
+### 5.1
+
+### 5.2 
+
+### 5.3 Limitation of token redemption
+There is no planned market for the redemption of tokens. While users may acquire tokens through escrow forfeitures by the other party, they will only be used in app. One possible redemption method would be additional in app purchases using these tokens beyond the standard posting of escrow collateral. It is also feasible that, given tokens have a fixed monetary value, that a secondary market would develop for both fiat currencies and also other crypto assets.
 
 
 
@@ -43,3 +63,5 @@ __Wallet:__ A cryptocurrency wallet is a device, physical medium, program or a s
 
 
 [1] Wallet Definition: https://en.wikipedia.org/wiki/Cryptocurrency_wallet
+
+[2] Hashlocks: https://en.bitcoin.it/wiki/Hashlock
